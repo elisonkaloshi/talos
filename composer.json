@@ -1,0 +1,20 @@
+{
+    "name": "elison/talos",
+    "description": "Generate Laravel Requests related to the columns type of a table",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elison\\Talos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elison Kaloshi",
+            "email": "elisonkaloshi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "doctrine/dbal": "^3.1"
+    }
+}
